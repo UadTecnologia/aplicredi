@@ -4,7 +4,6 @@ namespace App\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
-use Modules\Demandas\Console\Commands\InsereStatusInteracoesDemandas;
 
 class Kernel extends ConsoleKernel
 {
@@ -16,7 +15,7 @@ class Kernel extends ConsoleKernel
      */
 
     protected $commands = [
-        InsereStatusInteracoesDemandas::class
+       
     ];
 
     protected function schedule(Schedule $schedule)

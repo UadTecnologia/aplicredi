@@ -13,8 +13,6 @@ php artisan key:generate
 /* Usar somente se estiver utilizando uma base de dados limpa */
 php artisan migrate
 
-/* Usar somente se estiver utilizando uma base de dados limpa */
-php artisan module:seed Demandas
 
 ```
 
@@ -22,11 +20,6 @@ php artisan module:seed Demandas
 List routes
 ```
 php artisan route:list
-```
-Cria status interações demandas
-```
-/* Usar somente se estiver utilizando uma base de dados limpa */
-php demandas:insere-status-interacoes
 ```
 
 ### Compiles and hot-reloads for development
